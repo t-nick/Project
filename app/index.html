@@ -5,15 +5,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Главная страница</title>
 		<!-- SEO -->
-		<meta name="description" content="loftschool-homework">
-		<meta name="keywords" content="loftschool-homework">
+		<meta name="description" content="portfolio slipachenko tanya">
+		<meta name="keywords" content="portfolio slipachenko tanya">
 		<meta name="author" content="Slipachenko Tanya">
-		<!-- favicon.ico -->
-		<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">	 -->
-
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Fonts -->
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		
 		<!-- bower CSS -->
 		<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+		<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="">
@@ -21,9 +23,63 @@
 		<link rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js">
 	</head>
 <body>
-<h1>ПРОверка локального сервера</h1>
-<p>проверка браузеров</p>
+<header>
+	<div class="logo"><img src="img/logo.png"></div>
+	<div class="soc-block">
+		<ul>
+			<li class="soc fa fa-facebook"><a href="#"></a></li>
+			<li class="soc fa fa-vk"><a href="#"></a></li>
+			<li class="soc fa fa-twitter"><a href="#"></a></li>
+			<li class="soc fa fa-github-alt"><a href="#"></a></li>
+			
+		</ul>
+	</div>
+</header>
+
+<section class="main_block">
+	<div class="cotainer">
+		<div class="row">
+			<div class="col-md-3">
+			 <div class="navigation">
+				<ul class="navigation-block">
+					<li class="navigation-item curents"><a href="#">Обо мне</a></li>
+					<li class="navigation-item"><a href="#">Мои работы</a></li>
+					<li class="navigation-item"><a href="#">Обратная связь</a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<ul class="contact-block">
+					<li class="contact-item"></li>
+					<li class="contact-item"></li>
+					<li class="contact-item"></li>
+					<li class="contact-item"></li>
+				</ul>
+			</div>	
+			</div>
+			<div class="col-md-8 col-md-offset-1 main">
+				<div class="main info"></div>
+				<div class="main experience"></div>
+				<div class="main education"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-xs-12 col-md-offset-2 lock"><a href="/login.html" class="lock-inner">ВОЙТИ</a>
+			</div>
+			<div class="col-md-5 col-xs-12 copyright">© 2017. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</div>
+		</div>
+	</div>
+</footer>
+
+
 	<script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower/prefixfree/prefixfree.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
