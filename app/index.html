@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Главная страница</title>
-		<meta name="vievport" content="width=device-width, initial-scale=1">
-		<!-- <meta name="vievport" content="width=device-width, initial-scale=1, maxim-scale=1"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<!-- SEO -->
 		<meta name="description" content="portfolio slipachenko tanya">
 		<meta name="keywords" content="portfolio slipachenko tanya">
@@ -20,9 +19,8 @@
 		<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="">
-		<!-- modernizer -->
-		<link rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js">
+		<link rel="stylesheet" href="css/media.css">
+		
 	</head>
 <body>
 <header>
@@ -39,13 +37,13 @@
 </header>
 
 <section class="main_block">
-	<div class="cotainer">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-12 col-sm-12">
 			 <div class="navigation">
 				<ul class="navigation-block">
-					<li class="navigation-item curents"><a href="#">Обо мне</a></li>
-					<li class="navigation-item"><a href="#">Мои работы</a></li>
+					<li class="navigation-item curents"><a href="index.html">Обо мне</a></li>
+					<li class="navigation-item"><a href="my-work.html">Мои работы</a></li>
 					<li class="navigation-item"><a href="#">Обратная связь</a></li>
 				</ul>
 			</div>
@@ -58,24 +56,25 @@
 				</ul>
 			</div>	
 			</div>
-			<div class="col-md-8 col-md-offset-1 col-xs-12 main">
+			<div class="col-md-8 col-md-offset-1 col-xs-12 col-sm-12 main">
 				<div class="info">
 					<div class="title">Основная информация</div>
 					<div class="photo"><img src="img/foto2.jpg"></div>
-					<div class="description"><p><span class="bold">Меня зовут:</span>Слипаченко Татьяна</p>
-					<p><span class="bold">Мой возраст:</span>29 лет</p>
-					<p><span class="bold">Мой город:</span>Киев, Украина</p>
-					<p><span class="bold">Моя специализация:</span>FRONTEND разработчик</p>
-					<p><span class="bold">Ключевые навыки:</span>
-					<span class="key">html</span>
-					<span class="key">css</span>
-					<span class="key">javascript</span></p>
-					<p><span class="key">jquery</span>
-					<span class="key">bootstrap</span>
-					<span class="key">gulp</span>
-					<span class="key">bower</span>
-					<span class="key">git</span>
-					</p></div>
+					<div class="description">
+						<p><span class="bold">Меня зовут:</span>Слипаченко Татьяна</p>
+						<p><span class="bold">Мой возраст:</span>29 лет</p>
+						<p><span class="bold">Мой город:</span>Киев, Украина</p>
+						<p><span class="bold">Моя специализация:</span>FRONTEND разработчик</p>
+						<p><span class="bold">Ключевые навыки:</span>
+						<span class="key">html</span>
+						<span class="key">css</span>
+						<span class="key">javascript</span></p>
+						<p><span class="key">jquery</span>
+						<span class="key">bootstrap</span>
+						<span class="key">gulp</span>
+						<span class="key">bower</span>
+						<span class="key">git</span></p>
+					</div>
 				</div>
 				<div class="experience">
 					<div class="title">Опыт работы</div>
@@ -139,8 +138,6 @@
 	</div>
 </section>
 
-
-
 <footer class="page-footer">
 	<div class="container">
 		<div class="row">
@@ -155,5 +152,7 @@
 	<script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower/prefixfree/prefixfree.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<!-- modernizer -->
+		<script type="text/javascript" src="bower/modernizer/modernizr.js"></script> 
 </body>
 </html>

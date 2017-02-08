@@ -54,13 +54,13 @@ header{
 
 
 .main_block{
-	max-width: 960px;
+	width: 960px;
 	margin: 0 auto;
 }
 
 /*NAVIGATION*/
 .navigation{
-	max-width: 250px;
+	max-width: 300px;
 }
 .navigation-block{
 	border-radius: 3px;
@@ -126,21 +126,24 @@ header{
 	font-size: 17px;
 }
 /*MAIN*/
-.main{
-	max-width: 650px;
-}
+/*.main{
+	width: 650px;
+	margin: 0 auto;
+}*/
 .info,
 .experience,
 .education{
+	width: 650px;
+	
 	background-color: #eff3f7;
 	padding-bottom: 35px;
-	margin-bottom: 25px;
+	margin-bottom:25px;
 	border-radius: 3px;
 }
 .title{
 	color: #3ba8c0;
 	font-size: 27px;
-	border-bottom: 1px solid #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
 	width: 350px;
 	padding: 20px;
 }
@@ -195,25 +198,63 @@ margin: 0 30px 30px 50px;
 	margin: 0 30px 30px 50px;
 }
 
+/*WORK*/
+.work{
+	width: 650px;
+	background-color: #eff3f7;
+	padding-bottom: 35px;
+	margin-bottom:25px;
+	border-radius: 3px;
+	height: 840px;
+}
+.work-title{
+	color: #3ba8c0;
+	font-size: 27px;
+	border-bottom: 2px solid #3ba8c0;
+	width: 200px;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+.work-items{
+	width: 180px;
+	text-align: center;
+	margin: 0 15px 20px;
+}
+.work-title img{
+	height: 128px;
+	width: 180px;
+	border:2px solid #3ba8c0;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.add{
+	height: 130px;
+	width:180px;
+	border-radius: 3px;
+	border: 1px dashed #3ba8c0;
+	background-color: #edf8fc;
+	padding-top: 36px;
+	text-align: center;
+}
+.add img{
+	width: 34px;
+	height: 36px;
+}
+.add p{
+	color: #3ba8c0;
 
-@media only screen and (max-width : 768px) {
-	.main_block{
-	width: 95%;
-	}
 }
 
 /*FOOTER*/
 footer{
 	height: 60px;
-	/*position: absolute;
-	bottom: 0;
-	width: 100%;*/
 	background-color: #CDCFD2;
 	border-top: 3px solid #3BA8C1;
 }
 footer .container{
 	margin: 20px auto;
 	width: 980px;
+
 	text-align: center;
 }
 .lock-inner{

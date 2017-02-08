@@ -1,0 +1,11 @@
+@media only screen and (max-width : 769px) {
+	.info,
+.experience,
+.education{
+	width: 700px;
+	
+	}
+	.main_block{
+		width:760px;
+	}
+}
